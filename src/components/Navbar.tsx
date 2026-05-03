@@ -21,8 +21,8 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/90 backdrop-blur border-b shadow-sm" : "bg-transparent"
+      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 bg-background/95 backdrop-blur border-b ${
+        scrolled ? "shadow-sm" : ""
       }`}
     >
       <div className="container-px max-w-7xl mx-auto flex items-center justify-between h-16 md:h-20">
