@@ -89,10 +89,10 @@ function Index() {
 
 function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-primary">
       <div className="absolute inset-0 -z-10">
-        <img src={heroImg} alt="Happy family with insurance advisor" width={1920} height={1080} className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/40" />
+        <img src={heroImg} alt="Happy family with insurance advisor" width={1920} height={1080} className="w-full h-full object-cover opacity-90" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/50" />
       </div>
       <div className="container-px max-w-7xl mx-auto py-20 grid lg:grid-cols-2 gap-12 items-center">
         <div className="text-primary-foreground">
